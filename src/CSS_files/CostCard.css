@@ -1,0 +1,59 @@
+.card {
+    /* border: 2px solid blue; */
+    height: 100%;
+    min-width: 200px;
+    margin-left: .7rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 0px 0px;
+
+    justify-content: space-between;
+}
+
+.card .imgs {
+    /* border: 2px solid red; */
+    height: 65%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+
+}
+.card .imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.card .seller-containe {
+    /* border: 2px solid green; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card .seller-containe p {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+}
+
+.card .seller-containe h4 {
+    /* border: 2px solid red; */
+    font-weight: 500;
+    font-size: 1.1rem;
+    height: fit-content;
+
+}
+
+.card .seller-containe h3 {
+    /* border: 2px solid red; */
+    font-weight: 100;
+}
+.card .seller-containe h3 span{
+    font-weight: 600;
+}

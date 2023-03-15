@@ -1,0 +1,20 @@
+.section4{
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+
+}
+.section4 h1{
+    /* border: 2px solid blue; */
+    margin: 1rem 3rem;
+}
+.section4-scroll{
+     /* border: 2px solid green; */
+     height: 75%;
+     margin-left: 2rem;
+     display: flex;
+     overflow-x: scroll;
+     align-items: center;
+}

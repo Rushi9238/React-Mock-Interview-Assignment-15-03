@@ -1,0 +1,91 @@
+.section02{
+    /* border: 2px solid blue; */
+    height: 90vh;
+    margin-left: 2rem;
+    /* width: 100%; */
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.section02 h1{
+    margin: 1.5rem 1rem;
+    /* margin-top: 6rem; */
+    
+}
+.Week-card{
+    /* border: 2px solid green; */
+    height: 65%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    overflow-x: scroll;
+
+}
+*::-webkit-scrollbar{
+    display: none;
+    
+}
+/* .Week-card::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color:white;
+    
+}
+.Week-card::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background:linear-gradie(white , gray);
+    
+} */
+.section02 .horizotalScroll{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 1rem;
+    height: 8%;
+
+}
+.section02 .horizotalScroll .scroll{
+    border-left:solid rgba(150, 148, 148,300) 1px;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.section02 .horizotalScroll .scroll p{
+    
+    background-color: #f2f2f2;
+}
+.section02 .horizotalScroll p{
+border: 1px solid rgb(156, 156, 156);
+height: 100%;
+   min-width: fit-content;
+   padding: .5rem 1rem;
+   margin: 0rem .5rem;
+   text-align: justify;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media only screen and (max-width:318px){
+    .section02{
+        height: 70vh;
+    }
+    .section02 .horizotalScroll{
+        /* border: 2px solid red; */
+        height: 9%;
+    }
+    .section02 .horizotalScroll .scroll{
+        /* border: 2px solid blue; */
+        margin-left: .5rem;
+    padding-left: .5rem;
+    }
+    .section02 .horizotalScroll p{
+        padding: .1rem .1rem;
+        margin: 0rem .1rem;
+        font-size: .7rem;
+        font-weight: 600;
+   border-radius: 10px;
+
+    }
+}

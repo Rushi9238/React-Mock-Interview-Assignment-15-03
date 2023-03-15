@@ -1,0 +1,18 @@
+.section3{
+    /* border: 2px solid blue; */
+    height: 80vh;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: .3rem;
+}
+.section3 h1{
+    margin: 1rem 3rem;
+}
+.section3 .section-scroll{
+    /* border: 2px solid green; */
+    height: 85%;
+    margin-left: 2rem;
+    display: flex;
+    overflow-x: scroll;
+    /* box-shadow: 10px 10px 0px 0px; */
+}
